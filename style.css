@@ -34,11 +34,6 @@ h1{
     margin: 0px;
 }
 
-.heading p{
-    margin: 0px;
-}
-
-
 .heading{
     align-self: flex-start;
 }
@@ -64,7 +59,7 @@ h1{
 .img-box{
     flex-grow: 1;
     margin-left: auto;
-    background-color: rgb(141, 141, 141);
+    background-color: rgb(136, 142, 156);
     height: 250px;
     display: flex;
     align-items: center;
@@ -73,9 +68,11 @@ h1{
 
 .header{
     display: flex;
+    min-width: 300px;
 }
 
 .header span{
+    margin-right: 8px;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
@@ -91,4 +88,106 @@ h1{
     font-size: 18px;
     color: #E5E7EB;
 }
-/*Header End*/
+/*Header End, Mid Start*/
+h2{
+    text-align: center;
+    color: #1F2937;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.img-block{
+    padding: 0px 14%;
+    min-width: 300px;
+    margin-bottom: 100px;
+    color: #1F2937;
+}
+
+.rand-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.rand-info li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 200px;
+    text-align: center;
+}
+
+li img{
+    width: 120px;
+    height: 120px;
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+/*Mid End, Quote Start*/
+.quote-box{
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: light;
+    font-style: italic;
+}
+.text-block{
+    width: 50%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-box p{
+    margin-bottom: 0px;
+}
+.text-block span{
+    font-size: 18px;  
+    font-weight: bolder;
+    margin-left: auto;
+}
+/*Quote End, Modal Start*/
+.cta{
+    display: flex;
+    padding: 90px 7%;
+    align-items: center;
+    justify-content: center;
+    color: White;
+}
+.modal{
+    display: flex;
+    background-color: #3882F6;
+    padding: 20px 100px;
+    gap: 120px;
+    border-radius: 10px;
+}
+.modal button{
+    border: White solid;
+    align-self: center;
+    flex-shrink: 0;
+}
+.modal p{
+    margin-top: 0px;
+}
+h3{
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+.text{
+    min-width: 195px;
+}
+/*Modal End, Footer Start*/
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
